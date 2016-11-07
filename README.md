@@ -14,7 +14,7 @@ This vim plugin comes with following features:
 # Usage
 
 ## Open StyleGuide
-<styleguide.xml> could be a any file in g:StyleGuideXmlPath. Default is _shell.xml_
+\<styleguide.xml\> Could be a any file in g:StyleGuideXmlPath. Default is _shell.xml_
 ```vim
     :StyleGuide shell.xml
     :StyleGuide objcguide.xml
@@ -48,9 +48,8 @@ After opening StyleGuide, can use shortcut like below
 ## Store styeleguide and Modify .vimrc
 
 After either _Option 1_ or _Option 2_ above,
-1. Store styleguide xml files of [google-syleguide](https://github.com/google/styleguide) to g:StyleGuideXmlPath  
-만일 Korean 이라면, [ltlkodae-syleguide](https://github.com/ltlkodae/styleguide) 의 *_kr.xml 을 사용할수 있습니다 (번역 진행중 ㅜㅜ)
-2. Put the following lines in your .vimrc
+1. Store styleguide xml files of [google-syleguide](https://github.com/google/styleguide) to g:StyleGuideXmlPath. If you are Korean, [ltlkodae-syleguide](https://github.com/ltlkodae/styleguide) 의 *_kr.xml 을 사용할수 있습니다 (번역 진행중 ㅜㅜ)
+3. Put the following lines in your .vimrc
 
 ```vim
 " the path where styleguide files are stored
