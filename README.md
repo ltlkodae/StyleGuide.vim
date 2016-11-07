@@ -1,6 +1,6 @@
 # StyleGuide.vim
 Code with [google-syleguide](https://github.com/google/styleguide).
-Both readability, quality and unity of your code will be better
+Readability, quality and unity of your code will be better
 
 [google-syleguide](https://github.com/google/styleguide) 를 참고하면서 프로그래밍하세요. 
 코드의 가독성과 품질이 좋아지고, 통일성이 유지될 것입니다.  
@@ -63,7 +63,7 @@ After opening the StyleGuide, can use shortcut like below
 let g:StyleGuideXmlPath = '/user/ltlkodae/.vim/doc/styleguide'
 ```
 
-_Do not use '~', instead of /user/ltlkodae. It would be not work. I do not know the reason_  
+_Do not use '~', instead of /user/ltlkodae. It does not work. I do not know the reason_  
 _If you know the way to use, please let me know_
 
 
