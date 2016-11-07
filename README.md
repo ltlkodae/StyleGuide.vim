@@ -1,6 +1,10 @@
 # StyleGuide.vim
-Code with [google-syleguide](https://github.com/google/styleguide)  
+Code with [google-syleguide](https://github.com/google/styleguide).
 Both readability, quality and unity of your code will be better
+
+[google-syleguide](https://github.com/google/styleguide) 를 참고하면서 coding 하세요. 
+코드의 가독성과 품질이 좋아지고, 통일성이 유지될 것입니다.  
+Korean 일 경우, [ltlkodae-syleguide](https://github.com/ltlkodae/styleguide) 의 번역본(*_kr.xml) 을 사용하셔도 됩니다. (진행중 ㅜㅜ)
 
 ## Introduction
 This vim plugin comes with following features:
@@ -48,13 +52,16 @@ After opening StyleGuide, can use shortcut like below
 ## Store styeleguide and Modify .vimrc
 
 After either _Option 1_ or _Option 2_ above,
-1. Store styleguide xml files of [google-syleguide](https://github.com/google/styleguide) to g:StyleGuideXmlPath. If you are Korean, [ltlkodae-syleguide](https://github.com/ltlkodae/styleguide) 의 *_kr.xml 을 사용할수 있습니다 (번역 진행중 ㅜㅜ)
-3. Put the following lines in your .vimrc
+1. Store styleguide xml files of [google-syleguide](https://github.com/google/styleguide) to g:StyleGuideXmlPath.
+2. Put the following lines in your .vimrc
 
 ```vim
 " the path where styleguide files are stored
 let g:StyleGuideXmlPath = '/user/ltlkodae/.vim/doc/styleguide'
 ```
+
+
+
 _Do not use '~', instead of /user/ltlkodae. It would be not work. I do not know the reason_  
 _If you know the way to use, please let me know_
 
