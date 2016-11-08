@@ -1,9 +1,11 @@
 # StyleGuide.vim
 Code with [google-syleguide](https://github.com/google/styleguide).
-Readability, quality and unity of your code will be better
+Readability, quality and unity will be better  
+If you have own styleguide, share with your team members
 
 [google-syleguide](https://github.com/google/styleguide) 를 참고하면서 프로그래밍하세요. 
 코드의 가독성과 품질이 좋아지고, 통일성이 유지될 것입니다.  
+만일 당신만의 styleguide 를 가지고 있다면, 팀원들과 공유하세요  
 Korean 일 경우, [ltlkodae-syleguide](https://github.com/ltlkodae/styleguide) 의 번역본(*_kr.xml) 을 사용하셔도 됩니다. (진행중 ㅜㅜ)
 
 ## Introduction
@@ -54,12 +56,13 @@ After opening the StyleGuide, can use shortcut like below
 ## Step 2 Store styleguide xml files
   
 * Store styleguide xml files of [google-syleguide](https://github.com/google/styleguide) to g:StyleGuideXmlPath.
+* If you want to use your own styleguide, modify [google-syleguide](https://github.com/google/styleguide). Keep tags and change text to yours. 
 
 ## Step 3 Modify .vimrc
 * Put the following lines in your .vimrc
 
 ```vim
-" the path where styleguide files are stored
+" the path where styleguide files are stored (shoud be changed to yours)
 let g:StyleGuideXmlPath = '/user/ltlkodae/.vim/doc/styleguide'
 ```
 
